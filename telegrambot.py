@@ -2,7 +2,7 @@ import telebot
 git add
 git commit -m "Initial commit"
 git push -u origin master
-git remote add origin https://github.com/Danil-LOnely/Danil-Lonely.git
+git remote add origin https://github.com/danil-lonely/danil-lonely.git
 bot.set_webhook(url='https://yourdomain.com/your-webhook-path')
 @bot.message_handler(commands=['kick'])
 def kick_user(message):
