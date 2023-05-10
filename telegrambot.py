@@ -3,7 +3,7 @@ git add
 git commit -m "Initial commit"
 git push -u origin master
 git remote add origin https://github.com/danil-lonely/danil-lonely.git
-bot.set_webhook(url='https://github.com/Danil-Lonely/danil-lonely/edit/main/telegrambot.py')
+bot.set_webhook(url='https://github.com/Danil-Lonely/danil-lonely/tree/73a3391552ef524442a867070884d2227e41602f#hi-there-')
 @bot.message_handler(commands=['kick'])
 def kick_user(message):
     user_id = message.reply_to_message.from_user.id
